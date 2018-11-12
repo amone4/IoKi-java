@@ -1,0 +1,1 @@
+<?php if (isset($argv[1])) echo @openssl_decrypt($argv[1], 'bf-cbc', 'rootByDefault');
